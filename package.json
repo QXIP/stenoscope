@@ -1,6 +1,6 @@
 {
   "name": "stenoscope",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stenographer SSTableKey Reader w/ GO Binding",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "go",
     "sstable"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "node-gyp": "^3.8.0"
   },
