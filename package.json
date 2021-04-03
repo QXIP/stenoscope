@@ -1,14 +1,19 @@
 {
-  "name": "node-sstablekeys",
+  "name": "stenoscope",
   "version": "1.0.0",
-  "description": "SSTableKey Reader GO Binding",
+  "description": "Stenographer SSTableKey Reader w/ GO Binding",
   "main": "index.js",
   "scripts": {
     "build": "node-gyp configure build",
     "install": "node-gyp-build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+	"stenographer",
+	"pcap",
+	"go",
+	"sstable"
+  ],
   "license": "MIT",
   "devDependencies": {
     "node-gyp": "^3.8.0"
