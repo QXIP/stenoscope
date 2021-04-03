@@ -1,6 +1,6 @@
 {
   "name": "stenoscope",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Stenographer SSTableKey Reader w/ GO Binding",
   "main": "index.js",
   "scripts": {
