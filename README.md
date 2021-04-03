@@ -23,12 +23,12 @@ npm install stenoscope
 
 #### Usage
 ```
-const sstable = require('stenoscope');
+const stenoscope = require('stenoscope');
 
 var fromtime = parseInt(new Date().getTime()/1000) - 60;
 var totime = parseInt(new Date().getTime()/1000);
 
 console.log(
-  sstable.sstj('/var/lib/stenographer/thread0/index', fromtime, totime )
+  stenoscope.sstj('/var/lib/stenographer/thread0/index', fromtime, totime )
 );
 ```
