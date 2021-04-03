@@ -9,10 +9,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-	"stenographer",
-	"pcap",
-	"go",
-	"sstable"
+    "stenographer",
+    "pcap",
+    "go",
+    "sstable"
   ],
   "license": "MIT",
   "devDependencies": {
@@ -20,5 +20,14 @@
   },
   "dependencies": {
     "node-gyp-build": "^4.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QXIP/stenoscope.git"
+  },
+  "author": "lorenzo.mangani@gmail.com",
+  "bugs": {
+    "url": "https://github.com/QXIP/stenoscope/issues"
+  },
+  "homepage": "https://github.com/QXIP/stenoscope#readme"
 }
