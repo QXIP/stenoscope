@@ -18,12 +18,12 @@ go build
 ### NodeJS Module
 Compile the native binding for nodejs (or download a prebuilt version)
 ```
-make
+npm install stenoscope
 ```
 
 #### Usage
 ```
-const sstable = require('./index.js');
+const sstable = require('stenoscope');
 
 var fromtime = parseInt(new Date().getTime()/1000) - 60;
 var totime = parseInt(new Date().getTime()/1000);
