@@ -5,12 +5,11 @@ go-get:
 
 compile-cmd:
 	go build -o SSTableKeys src/SSTableKeys.go
+	go build -buildmode=c-shared -o sstablekeys.so src/SSTableKeysNode.go
 
 compile-go:
 	go build -buildmode=c-shared -o sstablekeys.so src/SSTableKeysNode.go
 
-build: go-get
-	compile-cmd
-	compile-go
+build: compile-cmd
 	npm install
 	npm run build

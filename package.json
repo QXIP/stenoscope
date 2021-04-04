@@ -1,9 +1,11 @@
 {
   "name": "stenoscope",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Stenographer SSTableKey Reader w/ GO Binding",
   "main": "index.js",
-  "engines" : { "node" : ">=14" },
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
     "build": "node-gyp configure build",
     "install": "node-gyp-build",
