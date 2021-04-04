@@ -24,11 +24,15 @@ npm install stenoscope
 #### Usage
 ```
 const stenoscope = require('stenoscope');
+var args = process.argv.slice(2);
 
-var fromtime = parseInt(new Date().getTime()/1000) - 60;
-var totime = parseInt(new Date().getTime()/1000);
+// Define Folder Path & Time Range
+var datapath = args[0] || '/var/lib/stenographer/thread0/index';
+var fromtime = parseInt(args[1]) || parseInt(new Date().getTime()/1000) - 60;
+var totime =   parseInt(args[2]) || parseInt(new Date().getTime()/1000);
 
+// Query SStable range to JSON (sstj)
 console.log(
-  stenoscope.sstj('/var/lib/stenographer/thread0/index', fromtime, totime )
+  sstable.sstj(datapath, fromtime, totime )
 );
 ```
