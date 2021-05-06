@@ -12,7 +12,6 @@ import (
 	"strconv"
 	"strings"
 	"sync"
-
 	"github.com/golang/leveldb/table"
 )
 
